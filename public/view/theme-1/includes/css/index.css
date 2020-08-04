@@ -1,0 +1,60 @@
+.index-container{
+    padding-bottom: 20px;
+}
+
+/* Corausal Section Starts */
+#index-corausal{
+    margin-bottom: 80px;
+}
+.index-container .carousel-inner{
+    height: 400px;
+}
+.index-container .carousel-inner .carousel-item{
+    height: 100%;
+}
+.index-container .carousel-inner .carousel-item img{
+    height: 100%;
+}
+@media(max-width: 1200px){
+    .index-container .carousel-inner{
+        height: 360px;
+    }
+}
+@media(max-width: 991px){
+    .index-container .carousel-inner{
+        height: 270px;
+    }
+}
+@media(max-width: 768px){
+    .index-container .carousel-inner{
+        height: 320px;
+    }
+}
+/* Corausal Section Ends */
+
+/* Latest Post Section Starts */
+.index-post-container{
+    margin-bottom: 80px;
+}
+.index-post-container .post-title h2{
+    font-size: 24px !important;
+}
+.index-post-container .post-content{
+    min-height: 50px;
+    max-height: 100px;
+}
+.index-post-container .post-content *{
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.index-post-container .post-content img{
+    display: none !important;
+}
+/* Latest Post Section Ends */
+
+/* About Me Section Starts */
+.index-about-me-container{
+    margin-bottom: 80px;
+}
+/* About Me Section Ends */

@@ -1,0 +1,32 @@
+.index-container{
+
+}
+.index-card{
+    margin: 25px;
+    transition: 0.4s;
+}
+.index-card:hover{
+    background-color: #2e5963;
+}
+.index-card a{
+    text-decoration: none;
+}
+.index-card-inner{
+    width: 200px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #fff;
+}
+.index-card-head{
+    font-size: 18px;
+}
+.index-card-tagline{
+    font-size: 14px;
+}
+.index-card-body{
+    font-size: 17px;   
+    word-break: break-all; 
+}

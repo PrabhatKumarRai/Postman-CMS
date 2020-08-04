@@ -1,0 +1,118 @@
+.index-container{
+}
+
+/* Corausal Section Starts */
+#index-corausal{
+    margin-bottom: 80px;
+}
+.index-container .carousel-inner{
+    height: calc(100vh - 55px);
+}
+.index-container .carousel-inner .carousel-item{
+    height: 100%;
+}
+.index-container .carousel-inner .carousel-item img{
+    height: 100%;
+}
+@media(max-width: 1200px){
+    .index-container .carousel-inner{
+        height: 360px;
+    }
+}
+@media(max-width: 991px){
+    .index-container .carousel-inner{
+        height: 270px;
+    }
+}
+@media(max-width: 768px){
+    .index-container .carousel-inner{
+        height: 320px;
+    }
+}
+/* Corausal Section Ends */
+
+/* Latest Post Section Starts */
+.index-post-container{
+    margin-bottom: 0px;
+    height: calc(100vh - 56px);
+}
+.index-post-container .post-inner{
+    padding: 40px 75px;
+}
+.index-post-container .post-container{
+    background: rgba(0, 0, 0, 0.03);
+}
+.index-post-container .post-title h2{
+    font-size: 32px !important;
+    margin-bottom: 20px;
+}
+.index-post-container .post-content{
+    max-height: 100px;
+}
+.index-post-container .post-content *{
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.index-post-container .post-content img{
+    display: none !important;
+}
+.index-post-container .index-all-post-button{
+    margin-top: 50px;
+}
+@media(max-width: 508px){
+    .index-post-container{
+        margin-bottom: 60px;
+    }
+}
+/* Latest Post Section Ends */
+
+/* About Me Section */
+.index-about-me-container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.index-about-me-container .jumbotron{
+    background: rgba(0, 0, 0, 0.03);
+    margin: 0;
+}
+.index-container .about-image {
+    margin-bottom: 25px;
+}
+.index-container .about-image img{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+.index-container .about-content-name{
+    font-size: 28px;
+    font-weight: 500;
+}
+.index-container .about-content-designation{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.index-container .about-content-social{
+    margin-bottom: 20px;
+}
+.index-container .index-social-link{
+    margin: 5px;
+}
+.index-container .about-content-social i{
+    color: #000;
+}
+
+/* Gallery Section */
+.index-gallery-container{
+    margin-bottom: 100px;
+}
+.index-gallery-container .gallery-image{
+    background: none;
+}
+.index-gallery-container .index-visit-gallery-btn{
+    margin-top: 40px;
+}

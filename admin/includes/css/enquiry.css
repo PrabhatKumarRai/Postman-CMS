@@ -1,0 +1,6 @@
+.Enquiry-container .card{
+    box-shadow: 0px 2px 3px #c3c3c3;
+}
+.Enquiry-container .card .card-header{
+    position: relative;
+}

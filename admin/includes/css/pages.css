@@ -1,0 +1,25 @@
+.pages-card-container a{
+    text-decoration: none;
+    font-size: 22px;
+}
+.pages-card{
+    width: 200px;
+    height: 100px;
+    margin: 25px;
+    line-height: 100px;
+    text-align: center;
+    border: 1px solid #c5c5c5;
+    transition: 0.6s;
+    color: #fff;
+}
+.pages-card:hover{
+    background-color: #2e5963;
+}
+@media(max-width: 768px){
+    .pages-card{
+      width: 200px;
+      height: 100px;
+      margin-bottom: 15px;
+      line-height: 100px;
+    }
+}

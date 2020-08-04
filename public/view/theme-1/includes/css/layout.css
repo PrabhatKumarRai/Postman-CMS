@@ -1,0 +1,41 @@
+/* Content Section Starts */
+.content{
+    width: calc(100% - 280px);
+    min-height: 100vh;
+    position: relative;
+    transition: 0.5s;
+    margin-left: auto;
+}
+.content-inner{
+    min-height: 100%;
+    padding: 50px 75px;
+}
+@media(max-width: 768px){
+    .content{
+        width: 100%;
+    }
+    .content-inner{
+        min-height: 100%;
+        padding: 25px 20px;
+    }
+}
+/* Content Section Ends */
+
+/* Sidebar Section Starts */
+.sidebar-nav{
+    width: 280px;
+    height: 100vh;
+}
+/* Sidebar Section Starts */
+
+/* footer Section Starts */
+footer{
+    width: calc(100% - 280px);
+    margin-left: auto;
+}
+@media(max-width: 768px){
+    footer{
+        width: 100%;
+    }
+}
+/* footer Section Ends */

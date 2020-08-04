@@ -1,0 +1,14 @@
+body{
+    background-color: #f1f1f1;
+}
+
+/* Content Section Starts */
+.content{
+    min-height: 100vh;
+    position: relative;
+    transition: 0.5s;
+}
+.content-inner{
+    min-height: 100%;
+}
+/* Content Section Ends */

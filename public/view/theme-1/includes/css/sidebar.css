@@ -1,0 +1,88 @@
+
+/* ------------ Sidebar ------------ */
+
+.sidebar-nav{
+    position: fixed;
+    top: 0px;
+    color: #e4e4e4;
+    transition: 0.5s;
+    z-index: 2;
+    left: 0px;
+}
+.sidebar-nav a{
+    padding-left: 0;
+    padding-right: 0;
+    color: #e4e4e4;
+}
+.sidebar-nav .nav-link:hover{
+    text-decoration: underline;
+}
+.sidebar-top{
+    height: 94%;
+    overflow-y: auto;
+    padding: 48px 24px 0px;
+}
+.sidebar-bottom{    
+    padding: 5px 24px 0px;
+}
+.sidebar-top .closebtn {
+    font-size: 36px;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+}
+
+/* Hide scrollbar */
+.sidebar-top::-webkit-scrollbar {
+    display: none;
+}
+
+.sidebar-user-image{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 10px;
+    padding: 2px;
+    background-color: #e4e4e4;
+}
+.sidebar-user-image img {
+    width: 100%;
+    height: 100%;
+}
+.sidebar-user-name{
+    font-size: 26px;
+    line-height: 1.1;
+}
+.sidebar-user-designation{
+    font-size: 12px;
+    color: #cccccc;
+}
+.sidebar-user-social{
+    margin-top: 15px;
+    font-size: 24px;
+}
+.sidebar-user-social a{
+    margin-right: 6px;
+    text-decoration: none;
+}
+.sidebar-search input[type="text"]{
+    background: #e4e4e4;
+    border: none;
+}
+
+.sidebar-visit-website {
+    padding: 4px 0px;
+    transition: 0.3s;
+    background-color: #e4e4e4;
+}
+.sidebar-visit-website:hover {
+    background-color: #bfbfbf;
+}
+.sidebar-toggler-btn{
+    border-radius: 20px;
+    font-size: 14px;
+}
+@media(max-width: 768px){
+    .sidebar-nav{
+        left: -280px;
+    }
+}

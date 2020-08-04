@@ -1,0 +1,22 @@
+.about-container{
+    padding: 15px 10px;
+}
+.about-image img{
+    max-width: 300px;
+    max-height: 300px;
+}
+.about-content-name{
+    font-size: 26px;
+}
+.about-content-designation{
+    font-size: 15px;
+}
+.about-content-social a{
+    font-size: 26px;
+    color: #6c6c6c;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.about-content-social a:hover{
+    color: #111;
+}
