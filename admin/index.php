@@ -5,6 +5,8 @@
         header("Location: view/");
         exit;
     }
+
+    //--------------Else Display the Login Page--------------//
 ?>
 
 <!DOCTYPE html>

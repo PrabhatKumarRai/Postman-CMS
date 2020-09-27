@@ -42,7 +42,9 @@ if(isset($_POST['submit'])){
             }
             else{
                 $_SESSION['u_id'] = $row['u_id'];
-            
+                //For storing login time and last avtivity.
+                $_SESSION['last_action'] = time();
+
                 $_SESSION['msg'] = "Login Successful!!!";
                 $_SESSION['class'] = "success";
                 print_r($_SESSION);

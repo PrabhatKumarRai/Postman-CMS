@@ -4,6 +4,7 @@
 
     if(!isset($_GET['data'])){
         header("Location: index.php");
+        exit;
     }
 
 

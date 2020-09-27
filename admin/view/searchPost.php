@@ -4,6 +4,7 @@ include_once __DIR__.'/../includes/header.php';
 
 if(!isset($_POST['submit'])){
     header("Location: index.php");
+    exit;
 }
 
 

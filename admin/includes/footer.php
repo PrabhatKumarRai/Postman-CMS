@@ -6,10 +6,10 @@
 </html>
 
 <!-- Unsetting All Session Veriables except u_id -->
-<?php 
+<?php
     foreach($_SESSION as $key => $val){
 
-        if ($key !== 'u_id')
+        if ($key != 'u_id' && $key != 'last_action')
         {
             unset($_SESSION[$key]);
         }
