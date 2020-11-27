@@ -22,3 +22,6 @@
 => Now you can run the project in your browser and start the initial setup process which creates database and the user account
 
 => Ones the project setup is completed, you are all set to visit your Postman website and access the admin panel.
+
+
+NOTE: "Postman CMS" screenshots are available under the "Project Screenshots" folder.
