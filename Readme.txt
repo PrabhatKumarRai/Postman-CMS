@@ -1,7 +1,7 @@
 -------------------
 --- Postman CMS ---
 -------------------
-#Postman is a easy to use, powerful and fast content management system. Postman privides beautiful themes with theme color options for the website. With Postman, get powerful customizable admin panel which provides realtime data on the dashboard. Easily connect social media with your Postman website and access many other powerful features.
+#Postman is an easy to use content management system. Postman privides beautiful themes with theme color options for the website. With Postman, get powerful customizable admin panel which provides realtime data on the dashboard. Easily connect social media with your Postman website and access many other powerful features.
 
 ---- Technologies Used ----
 => Html
