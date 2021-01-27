@@ -15,11 +15,11 @@
 
 ---- Installation ----
 
-=> Download and Paste the entire directory contents in your projects folder (under htdocs folder in xampp server and under www folder in wamp server)
+=> Download and Paste the entire directory contents in your root folder.
 
 => You can rename the project directory as per your requirement
 
-=> Now you can run the project in your browser and start the initial setup process which creates database and the user account
+=> Now you can run the project in your browser and start the initial setup process which creates all the database tables and the user account.
 
 => Ones the project setup is completed, you are all set to visit your Postman website and access the admin panel.
 
